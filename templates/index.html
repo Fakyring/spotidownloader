@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Granite / Музыка в MP3</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='granite-icon.svg') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='granite.css') }}">
   <script defer src="{{ url_for('static', filename='granite.js') }}"></script>
 </head>
 <body>
   <main class="shell">
     <header class="masthead">
-      <span class="brand"><span class="mark" aria-hidden="true"></span> GRANITE</span>
+      <span class="brand"><img class="mark" src="{{ url_for('static', filename='granite-icon.svg') }}" width="24" height="24" alt=""> GRANITE</span>
       <span class="tag">МУЗЫКА / MP3</span>
     </header>
 
